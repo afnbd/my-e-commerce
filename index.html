@@ -5,67 +5,251 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My E-commerce Web site Development</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     
         <link rel="stylesheet" href="style.css">
 
 </head>
     <body>
-        <section id="container_section">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/ICON/Logo.png" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Course</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Others</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
-                        </li>
-                        <li>
-                            <a  class="link_sing_in_button" href="#" >Sign-In</a>
-                        </li>
-                      </ul>
+    <header class="header_part_bg">
+                   
+          <div class="container cetegorise">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">
+                    <img src="images/ICON/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Course</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Others</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                    </li>
+                    <li>
+                        <a  class="link_sing_in_button " href="#" >Sign-In</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    
+        <!--carousal codding start-->
+        <div class="container cetegorise">
+          <h5 class="orange-color">Are you ready to learn?</h5>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6">
+                        <h3>Learn Whit fun on <span class="text-color">any schedule.</span></h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                        <button class="get_started_button"><a href="">Get-Started</a></button>
                     </div>
-                  </nav>
-            </div>
-            <!--carousal codding start-->
-            <div class="container">
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
+                    <div class="col-md-6">
+                      <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
+                    </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="images/Photos/afran.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3>Learn Whit fun on <span>any schedule.</span></h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                    <button class="get_started_button"><a href="">Get-Started</a></button>
                   </div>
-                  <div class="carousel-item">
+                  <div class="col-md-6">
                     <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+             
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3>Learn Whit fun on <span  class="text-color">any schedule.</span></h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                    <button class="get_started_button"><a href="">Get-Started</a></button>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
               </div>
             </div>
-              <!--carousal codding end-->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!--carousal codding end-->
+    </header>
+        <!--one of the row and for columm code stat-->
+        <div class="container cetegorise">
+          <div class="row d-flex justify-content-between ">
+            <div class=" background_for_clm ">
+              <col-md-3>
+                  <div  class="d-flex justify-content-between">
+                    <img class="row-clm-images" src="images/ICON/book.png" alt="">
+                  </div>
+                <h4>1500+Topic</h4>
+                <h6>Learn Anything</h6>
+              </col-md-3>
+            </div>
+            <div class=" background_for_clm secound-culumm">
+              <col-md-3>
+                <div  class="d-flex justify-content-between">
+                  <img class="row-clm-images" src="images/ICON/Student.png" alt="">
+                </div>
+                <h4>1500+Topic</h4>
+                <h6>Learn Anything</h6>
+            </col-md-3>
+            </div>
+            <div class=" background_for_clm"> 
+              <col-md-3>
+                <div class="d-flex justify-content-between">
+                  <img class="row-clm-images" src="images/ICON/Test.png" alt="">
+                </div>
+                  <h4>1500+Topic</h4>
+                  <h6>Learn Anything</h6>
+              </col-md-3>
+            </div>
+            <div class=" background_for_clm">
+              <col-md-3>
+                <div class="d-flex justify-content-between">
+                  <img class="row-clm-images" src="images/ICON/Students.png" alt="">
+                </div>
+                  <h4>1500+Topic</h4>
+                  <h6>Learn Anything</h6>
+              </col-md-3>
+            </div>
+         
+          </div>
+        </div>
+         <!--one of the row and for columm code stat-->
+      
+        <!--online course section code stat-->
+          <div class="container cetegorise">
+            <div class="card-deck">
+              <div class="card">
+                <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Modern Psychology</h5>
+                  <p class="card-text">Designation</p>
+                  <button class="get_started_button"><a href="">Get-Started</a></button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><img src="images/ICON/calendar.png" alt="">  <span class="card-footer-span">Start 20 April,2021 </span>
+                  <img src="images/ICON/people.png" alt=""> <span class="card-footer-span">60 Seats</span>
+                  </small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Modern Psychology</h5>
+                  <p class="card-text">Designation</p>
+                  <button class="get_started_button"><a href="">Get-Started</a></button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><img src="images/ICON/calendar.png" alt="">  <span class="card-footer-span">Start 20 April,2021 </span>
+                    <img src="images/ICON/people.png" alt=""> <span class="card-footer-span">60 Seats</span>
+                    </small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5  class="card-title">Modern Psychology</h5>
+                  <p class="card-text">Designation</p>
+                  <button class="get_started_button"><a href="">Get-Started</a></button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><img src="images/ICON/calendar.png" alt="">  <span class="card-footer-span">Start 20 April,2021 </span>
+                    <img src="images/ICON/people.png" alt=""> <span class="card-footer-span">60 Seats</span>
+                    </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--online course section code end-->
+
+        <!--testimoniyal code start-->
+          <div class="container cetegorise">
+            <h2 class="d-flex justify-content-center align-items-center">Testimonial</h2>
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-md-4">
+                  <img class="testimonial_picture" src="images/Photos/Man.png" alt="">
+              </div>
+              <div class="col-md-8 " >
+                <p class="testimonial_paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+              </div>
+            </div>
+           
+          </div>
+        <!--testimoniyal code end-->
+        <!--footer section code start-->
+        <section class="footer_section">
+          <div class="container cetegorise footer_section_bg ">
+            <div class="row">
+              <div class="col-md-5">
+                  <p>There are many variations of passages of Lorem Ipsum available,,</p>
+              </div>
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column bd-highlight mb-3">
+                      <p>Course</p>
+                      <div class=" bd-highlight">Wev-Design</div>
+                      <div class=" bd-highlight">Wev-development</div>
+                      <div class=" bd-highlight">Business</div>
+                      <div class=" bd-highlight">CPA-Marketing</div>
+                      <div class=" bd-highlight">Engineering</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column bd-highlight mb-3">
+                      <p class="footer_p">Terms</p>
+                      <div class=" bd-highlight">Wev-Design</div>
+                      <div class=" bd-highlight">Wev-development</div>
+                      <div class=" bd-highlight">Business</div>
+                      <div class=" bd-highlight">CPA-Marketing</div>
+                      <div class=" bd-highlight">Engineering</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column bd-highlight mb-3">
+                      <p>Useful-link</p>
+                      <div class=" bd-highlight">Wev-Design</div>
+                      <div class=" bd-highlight">Wev-development</div>
+                      <div class=" bd-highlight">Business</div>
+                      <div class=" bd-highlight">CPA-Marketing</div>
+                      <div class=" bd-highlight">Engineering</div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <p class="d-flex justify-content-center">All Copyright &copy;2020 afn-Fashion.com| Create By  Razibul Hasan afran.</p>
+          </div>
         </section>
+        <!--footer section code end-->
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

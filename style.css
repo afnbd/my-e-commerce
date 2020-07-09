@@ -1,6 +1,17 @@
-#container_section{
-    background-color: #F0FFF0;
+body{
+    font-family: 'Roboto', sans-serif;
 }
+.header_part_bg{
+    background-color: #F0FFF0;
+    padding:20px 20px;
+}
+
+.cetegorise{
+   
+    margin-bottom:100px;
+    padding-top:30px;
+}
+
 .navbar-brand img{
     width: 200px;
     margin-right: 250px;
@@ -13,10 +24,85 @@
     padding:3px 25px; 
     vertical-align:center;
     position:relative;
-    top:20px;
+    top:18px;
     
 }
 .link_sing_in_button:hover{
     text-decoration:none;
     color:white;
+}
+.orange-color{
+
+    color:orange;
+}
+.text-color{
+    color: #21B573;
+}
+.get_started_button{
+    background-color:#21B573 ;
+    border:none;
+    border-radius:50px;
+    padding:7px 20px;
+}
+.get_started_button a{
+        color:white;
+      
+}
+.row-clm-images{
+    width:70px;
+    height:70px;
+    margin:0 auto;
+    
+}
+.background_for_clm {
+    background-color: #F8FFFB;
+    padding: 50px 25px;
+    border-radius: 7px;
+}
+.secound-culumm {
+    background-color: white;
+    box-shadow: 6px 6px 25px #EEEEEE;
+}
+
+.card {
+    border:none;
+    border-radius:10px;
+    box-shadow:5px 5px 30px grey;
+}
+
+.card-footer{
+    padding:0;
+    border-top:none;
+    background-color: white;
+}
+.card-footer img{
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.card-footer-span{
+    font-size: 16px;
+    margin-right: 25px;
+    font-weight:bold;
+}
+.testimonial_picture{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top:50px;
+
+}
+.testimonial_paragraph{
+    font-size:25px;
+    margin-top: 50px;
+
+}
+.footer_section{
+    background-color: #282531;
+    color:white;
+   
+}
+.footer_section_bg{
+    padding: 40px 5px;
 }
